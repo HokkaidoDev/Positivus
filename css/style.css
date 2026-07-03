@@ -450,7 +450,7 @@ svg * {
 .burger-button {
   padding: 0;
   background-color: transparent;
-  bottom: none;
+  border: none;
   width: 48px;
   aspect-ratio: 1;
   position: relative;
@@ -482,7 +482,7 @@ svg * {
 .cross-button {
   padding: 0;
   background-color: transparent;
-  bottom: none;
+  border: none;
   width: 48px;
   aspect-ratio: 1;
   position: relative;

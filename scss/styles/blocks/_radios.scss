@@ -1,0 +1,6 @@
+@use '../abstract' as *;
+
+.radios {
+  display: flex;
+  column-gap: 35px;
+}

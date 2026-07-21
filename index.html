@@ -33,10 +33,10 @@
               <a href="#studies" class="header__menu-link">Use Cases</a>
             </li>
             <li class="header__menu-item">
-              <a href="#" class="header__menu-link">Pricing</a>
+              <a href="#banner" class="header__menu-link">Pricing</a>
             </li>
             <li class="header__menu-item">
-              <a href="#" class="header__menu-link">Blog</a>
+              <a href="/" class="header__menu-link" target="_blank">Blog</a>
             </li>
           </ul>
         </nav>
@@ -394,7 +394,7 @@
               </li>
             </ul>
 
-            <div class="services__banner banner">
+            <div class="services__banner banner" id="banner">
               <div class="banner__inner">
                 <div class="banner__body">
                   <h3 class="banner__title">Let’s make things happen</h3>
@@ -411,7 +411,7 @@
                 </div>
                 <img
                   class="banner__image hidden-mobile"
-                  src="./scss/images/_banner-bg.svg"
+                  src="./scss/images/pricing-banner-bg.svg"
                   alt=""
                   width="494"
                   height="394"
@@ -1323,10 +1323,10 @@
                 <a href="#studies" class="footer__menu-link">Use Cases</a>
               </li>
               <li class="footer__menu-item">
-                <a href="#" class="footer__menu-link">Pricing</a>
+                <a href="#banner" class="footer__menu-link">Pricing</a>
               </li>
               <li class="footer__menu-item">
-                <a href="#" class="footer__menu-link">Blog</a>
+                <a href="/" class="footer__menu-link" target="_blank">Blog</a>
               </li>
             </ul>
           </nav>
@@ -1504,10 +1504,23 @@
             </a>
           </li>
           <li class="mobile-overlay__item">
-            <a href="#" class="mobile-overlay__link"> Pricing </a>
+            <a
+              href="#banner"
+              class="mobile-overlay__link"
+              onclick="mobileOverlay.close()"
+            >
+              Pricing
+            </a>
           </li>
           <li class="mobile-overlay__item">
-            <a href="#" class="mobile-overlay__link"> Blog </a>
+            <a
+              href="/"
+              class="mobile-overlay__link"
+              target="_blank"
+              onclick="mobileOverlay.close()"
+            >
+              Blog
+            </a>
           </li>
         </ul>
       </div>

@@ -4,7 +4,7 @@ A clean and modern landing page for a digital marketing agency, designed to show
 
 ## 👁️ Demo
 
-[View Live Demo](https://hokkaidodev.github.io/positivus/)
+[View Live Demo](https://hokkaidodev.github.io/Positivus/)
 
 ## 🎨 Design Reference
 
@@ -33,7 +33,7 @@ A clean and modern landing page for a digital marketing agency, designed to show
 ## ▶️ How to Run
 1.  **Clone the repository:**
    ```bash
-   git clone https://github.com/HokkaidoDev/positivus.git
+   git clone https://github.com/HokkaidoDev/Positivus.git
    ```
 2. Open `index.html` in your browser.
 3. If you want to modify styles, update the SCSS files in `scss/styles/` and compile them to `dist/css/style.css`.

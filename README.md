@@ -10,6 +10,9 @@ A clean and modern landing page for a digital marketing agency, designed to show
 
 [Figma Design Link](https://www.figma.com/design/fRebuDt4iVBxi9ZrgZaOzY/Positivus-Landing-Page-Design--Community---Copy-?node-id=25-145&p=f&t=LlUsq1BaijwLkcTy-0)
 
+## Preview
+![Preview](./preview.avif)
+
 ## 🚀 Overview
 - Responsive single-page layout built with HTML and SCSS.
 - Eye-catching hero section with partner logos and a strong value proposition.
